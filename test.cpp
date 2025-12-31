@@ -1,8 +1,17 @@
-#include <iostream> 
-#using namespace std;
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <string>
 
-int main(){
-    cout << "anea";
-    return 0;
+using namespace std;
 
+/* ===============================
+   LOAN CALCULATOR
+   =============================== */
+double calculateMonthlyLoan(double amount, double rate, int months) {
+    return (amount * rate) / months;
+}
+
+double calculateTotalLoan(double monthly, int months) {
+    return monthly * months;
 }
