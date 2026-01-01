@@ -21,5 +21,6 @@ double interest ( double principal,double rate){
 } 
 cout << "rezultati" << endl;
 
+cout << "tuana kadriu" << endl;
 cout << "anea suliqi" << endl;
 return 0;
