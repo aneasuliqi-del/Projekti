@@ -12,9 +12,9 @@ double calculateMonthlyLoan(double amount, double rate, int months) {
     return (amount * rate) / months;
 }
 
-double calculateTotalLoan(double monthly, int months) {
-    return monthly * months;
-}
 double calculateSavings(double monthly, int months) {
     return monthly * months;
 }
+
+cout << "anea suliqi" << endl;
+return 0;
