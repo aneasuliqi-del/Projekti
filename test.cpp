@@ -18,7 +18,8 @@ double calculateSavings(double monthly, int months) {
 
 double interest ( double principal,double rate){
     return principal* rate;
-}
+} 
+cout << "rezultati" << endl;
 
 cout << "anea suliqi" << endl;
 return 0;
