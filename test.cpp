@@ -15,6 +15,7 @@ double calculateMonthlyLoan(double amount, double rate, int months) {
 double calculateSavings(double monthly, int months) {
     return monthly * months;
 }
+cout << "anea "<< endl;
 
 double interest ( double principal,double rate){
     return principal* rate;
